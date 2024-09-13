@@ -16,9 +16,16 @@ users = {
     "user1": {"name": "Alice", "evmAddress": "0x1234", "qrCode": None}
 }
 
-transactions = [
-        {"dateTime": "2024-09-12T12:34:56Z", "status": "Success", "sentAmount": "1 ETH", "sentToken": "ETH", "destinationToken": "BTC", "recipientAddress": "0x5678", "txnHash":"0x68758585678ff66xx7768y8686868gfygfghg6fvDRR588"},
-        {"dateTime": "2024-09-12T13:45:67Z", "status": "Failed", "sentAmount": "0.5 BTC", "sentToken": "BTC", "destinationToken": "ETH", "recipientAddress": "0x9876", "txnHash":"0x68758585678ff66xx7768y8686868gfyghbhbfvDRR588"}
+# transactions = [
+#         {"dateTime": "2024-09-12T12:34:56Z", "status": "Success", "sentAmount": "1 ETH", "sentToken": "ETH", "destinationToken": "BTC", "recipientAddress": "0x5678", "txnHash":"0x68758585678ff66xx7768y8686868gfygfghg6fvDRR588"},
+#         {"dateTime": "2024-09-12T13:45:67Z", "status": "Failed", "sentAmount": "0.5 BTC", "sentToken": "BTC", "destinationToken": "ETH", "recipientAddress": "0x9876", "txnHash":"0x68758585678ff66xx7768y8686868gfyghbhbfvDRR588"}
+#     ]
+
+transactions =[
+    {"dateTime":"2024-09-12T14:14:56Z","destinationToken":"BNB","recipientAddress":"0xB09e387D683CDAe6Dca5B76Ed89B8F4b5Bb88D13","sentAmount":"0.031 ETH","sentToken":"ETH","status":"Success","txnHash":"0x762b922b74b75c3b243f605fe7429cd910f65e70c60f53f38c3568a05b480537"},
+    {"dateTime":"2024-09-12T15:10:55Z","destinationToken":"ETH","recipientAddress":"0xB09e387D683CRAe6Dca5B76Ed89B8F4b5Bb99E44","sentAmount":"0.5 BTC","sentToken":"BTC","status":"Failed","txnHash":"0x762b922b74b75c3b243f605fe7429cd910f65e78030f53f38c3568a05b480537"},
+    {"dateTime":"2024-09-13 03:51:42","destinationToken":"sETH Sepolia","recipientAddress":"0xB09e387D683CDAe6Dca5B76Ed89B8F4b5Bb88D13","sentAmount":"0.0001 BNB","sentToken":"BNB","status":"Success","txnHash":"0x4dc642a6c98f14b27630ff0bde115fcb93d1851cef3eb98f4b7c3a01332f908f"},
+    {"dateTime":"2024-09-13 04:15:42","destinationToken":"BNB","recipientAddress":"0xB09e387D683CDAe6Dca5B76Ed89B8F4b5Bb88D13","sentAmount":"0.031 sETH Sepolia","sentToken":"sETH Sepolia","status":"Success","txnHash":"0xcf018cfd7f287f09a5ea0a8ba377964dbe3a1d135a071665f014e7fa0315336b"}
     ]
 
 token_dict = {
